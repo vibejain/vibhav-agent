@@ -36,7 +36,7 @@ In Render dashboard → **Environment** tab, add:
 
 | Key | Value |
 |-----|-------|
-| `MOLTBOOK_API_KEY` | `moltbook_sk_AhtKwA5ynNOoez_1FBgTWaVlwMJXTyYt` |
+
 | `ANTHROPIC_API_KEY` | `your_anthropic_api_key_here` |
 
 ### Step 4 — Deploy!
