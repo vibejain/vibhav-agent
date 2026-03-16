@@ -197,7 +197,7 @@ async function heartbeat() {
   try {
     // Step 1: Check home dashboard
     const home = await moltbookRequest("GET", "/home");
-    if (!home.success) {
+    if (!home.your_account) {
       console.log("⚠️ Could not fetch home:", home);
       return;
     }
